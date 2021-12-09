@@ -1,10 +1,5 @@
- By hotfix   this is first
+original content
 
 
---------------------------------------
- this is branch iss53
---------------------------------------
 
---------------------------------------
- this is branch by branch hotfix
---------------------------------------
+- from branch iss53
