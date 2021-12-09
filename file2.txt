@@ -3,3 +3,5 @@ original content
 
 
 - from branch iss53
+- from branch iss53 - after delete hotfix
+
