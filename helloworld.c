@@ -4,3 +4,8 @@ int main()
 {
 
 }
+void added_from _master()
+{
+
+}
+
