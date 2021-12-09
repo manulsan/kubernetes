@@ -26,12 +26,19 @@ $ vi helloworld.c
     return 0;
   }
 
+ - Working With a Remote Repository
+ $ git remote add orgin https://github.com/manulsan/kubernetes.git
+ $ git push -u orgina master
+ $  git commit -m "file2 is added"
+ $  git push
+
 4. Reading Logs
 $ git log
 $ git show 6a9eb6c2d75b78febd03322a9435ac75c3bc278e
 $ git reset --hard 220e44bb924529c1f0bd4fe1b5b82b34b969cca7
+$ git status
+$ git branch -a
+$ git checkout -b 'branch_name'. 
 
-5.Working With a Remote Repository
-$ git clone project.url/projectname.git
-$ cd projectname
-$ git push
+
+
