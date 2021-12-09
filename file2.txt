@@ -1,7 +1,13 @@
- By hotfix   this is first
+original content
 
 
 
+<<<<<<< HEAD
 ****************************************
  this is branch by branch hotfix
 ****************************************
+=======
+- from branch iss53
+- from branch iss53 - after delete hotfix
+
+>>>>>>> iss53
