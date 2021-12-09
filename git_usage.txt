@@ -1,0 +1,44 @@
+1. ubuntu git install
+
+2. Git install
+   // https://linuxconfig.org/git-tutorial-for-beginners
+  $ sudo apt-get install git-tutorial-for-beginners   // On Debian and Debian based systems such as Ubuntu use apt.
+  $ sudo yum install git  //On Redhat Enterprise Linux and Redhat based systems such as Fedora use yum.
+  $ sudo dnf install git  //(note: on Fedora version 22 or later replace yum with dnf)
+  $ sudo pacman -S git    //On Arch Linux use pacman 
+
+3. Configuring Git
+  $ git config --global user.email "youremail@emaildomain.com"
+  $ git config --global user.name "your username"
+  $ git config -l
+
+4. Creating Your First Git Project
+$ git init projectname
+$ cd projectname
+$ touch helloworld.c
+$ git add .
+$ git commit -m "First commit of project, just an empty file"
+$ vi helloworld.c
+  #include 
+  int main(void)
+  {
+    printf("Hello, World!\n");
+    return 0;
+  }
+
+ - Working With a Remote Repository
+ $ git remote add orgin https://github.com/manulsan/kubernetes.git
+ $ git push -u orgina master
+ $  git commit -m "file2 is added"
+ $  git push
+
+4. Reading Logs
+$ git log
+$ git show 6a9eb6c2d75b78febd03322a9435ac75c3bc278e
+$ git reset --hard 220e44bb924529c1f0bd4fe1b5b82b34b969cca7
+$ git status
+$ git branch -a
+$ git checkout -b 'branch_name'. 
+
+
+
