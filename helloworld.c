@@ -2,10 +2,8 @@
 
 int main()
 {
-
+ int xx;
 }
-void added_from _master()
+void added_by_branch()
 {
-
 }
-
