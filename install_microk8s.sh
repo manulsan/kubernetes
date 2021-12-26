@@ -12,3 +12,10 @@ sudo microk8s kubectl get all --all-namespaces
 # microk8s.add-node\
 # microk8s join 192.168.123.233:25000/dfc4def0d3216ff52e656d80acecf4cd/3da3a9bd0208 --worker
 #sudo snamp remove microk8s
+sudo usermod -a -G microk8s $USER
+cd $HOME
+mkdir .kube
+cd .kube
+microk8s config > config
+sudo chown -f -R $USER ~/.kube
+
