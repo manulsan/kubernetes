@@ -1,3 +1,4 @@
+// reference : https://microk8s.io/docs/clustering
 sudo snap install microk8s --classic --channel=1.23/stable
 sudo ufw allow in on cni0 && sudo ufw allow out on cni0
 sudo ufw default allow routed
